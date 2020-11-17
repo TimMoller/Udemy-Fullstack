@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="Eng"
+    <head>
+        <title>Forms Tutorial 2</title>
+    </head>
+    <body>
+        
+        <h2>Forms Tutorial 2</h2>
+
+        <form action="/" method="POST">
+            <!--action and method will be covered later in the course for now focus on what the tags do.-->
+
+            <input type="text" placeholder="First Name" name="userName" required>
+            <input type="text" placeholder="Last Name" name="userLastName" required><br><br>
+            <input type="email" placeholder="email Address" name="userEmail" required><br>
+            <input type="password" placeholder="Password" required><br><br>
+
+            <textarea name="" placeholder="Let us know what you think of our doughnuts" cols="50" rows="45"></textarea>
+            <!--text inside the textarea tag is placed in the box and is editable-->
+            <br><br>
+
+            <!--Remember that the <br> is bad practice, you will use CSS to style the forms
+            properly later in the tutorial, it's just for this tutporial series that we are 
+            using the line break-->
+
+            <input type="submit">
+        </form>
+    </body>
