@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Reviewing forms</h2>
+
+    <form>
+        <label>
+            First name:  <input type="text" placeholder="First name" name="userName" required>
+        </label>
+        <label>
+            Last name:  <input type="text" placeholder="Lastname" name="userSurname" required>
+        </label>
+        <br>
+        <label>
+            Your email address:  <input type="email" placeholder="email" name="userEmail" required>
+        </label>
+        <label>
+            Password:  <input type="password" placeholder="Enter your password" name="userPassword" required>
+        </label>
+        <br><br>
+        <label>
+            Date of Birth:  <input type="date" name="userBirthday" required>
+        </label>
+        <br>
+        <label>
+            Gender:
+            <label>
+                Male <input type="radio" name="userGender" value="isMale" required>
+            </label>
+            <label>
+                Female <input type="radio" name="userGender" value="isFemale">
+            </label>
+        </label>
+        <br>
+        <label>
+            Which Superhero would you like to meet?
+            <br>
+            <select name="Superhero" required>
+                <option value="Batman">Batman</option>
+                <option value="Robin">Robin</option>
+                <option value="Superman">Superman</option>
+                <option value="Aquaman">Aquaman</option>
+                <option value="WonderWoman">Wonder Woman</option>
+                <option value="Spiderman">Spiderman</option>
+            </select>
+        </label>
+        <br>
+        <label>
+            What colour would you like your cape to be? <input type="color" name="capeColor">
+        </label>
+
+        <br>
+        <button>AHOY!!</button>
+    </form>
+</body>
+</html>
