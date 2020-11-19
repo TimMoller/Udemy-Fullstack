@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Adding a checkbox to a Form</h2>
+
+    <form>
+        <label>
+            First Name:  <input type="text" placeholder="First Name" name="userFirstName" required>
+        </label>
+        <label>
+            Last Name:  <input type="text" placeholder="Last Name" name="userLastName" required>
+        </label>
+        <br><br>
+        <label>
+            email:  <input type="email" placeholder="email Address" name="userEmail" required>
+        </label>
+        <label>
+            Password:  <input type="password" placeholder="Password" name="userPassword" required>
+        </label>
+        <br><br>
+        <label>
+            Date of birth: <input type="date" name="userBirthday" required>
+        </label>
+        <label>
+            Gender:
+            <br><br>
+            <label>
+                <input type="radio" name="userGender" value="isMale" required>
+                Male
+            </label>
+            <label>
+                <input type="radio" name="userGender" value="isFemail">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="userGender" value="isOther">
+            </label>
+        </label>
+        <br><br>
+        <label>
+            Which Hero would you like to meet?
+            <select name="superhero" required>
+                <option value="" disabled selected hidden>Select a hero</option> <!--you can use this as a placeholder for the select tag in the form-->
+                <option value="Batman">Batman</option>
+                <option value="Robin">Robin</option>
+                <option value="Spiderman">Spiderman</option>
+                <option value="Superman">Superman</option>
+                <option value="IronMan">Iron Man</option>
+            </select>
+        </label>
+        <br><br>
+        <label>
+            Let's order a Pizza While we are here.
+            <br>
+            Please select your toppings:
+            <br><br>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Chicken">
+                Chicken
+            </label>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Onion">
+                Onion
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Ham">
+                Ham
+            </label>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Pepper">
+                Pepper
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Mushroom">
+                Mushroom
+            </label>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="ExtraCheese">
+                Extra Cheese
+            </label>
+            <br>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Bacon">
+                Bacon
+            </label>
+            <label>
+                <input type="checkbox" name="pizzaToppings" value="Rocket">
+                Rocket
+            </label>
+        </label>
+        <br><br>
+        <button>Let's do this!!</button>
+    </form>
+</body>
+</html>
