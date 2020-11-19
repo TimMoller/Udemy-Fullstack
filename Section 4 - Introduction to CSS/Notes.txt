@@ -1,0 +1,18 @@
+CSS - Cascading Style Sheets:
+
+selector {
+    property: value;
+}
+
+e.g.:
+
+h2 {
+    color: red;
+    text-align: centre;
+}
+
+There are 3 types of selectors
+
+    1. Element selectors
+    2. Class selectors
+    3. ID selectors
