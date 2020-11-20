@@ -14,5 +14,25 @@ h2 {
 There are 3 types of selectors
 
     1. Element selectors
+        for specific elements
+        p {
+            color: red;
+        }
     2. Class selectors
+        for applying to multiple select elements but not all
+        .element {
+            color: green
+        }
+
+        <p class="element">Some text</p>
     3. ID selectors
+        for applying to specific unique elements in the page
+        #element {
+            fiont-size: 22px;
+            color: aquamorena
+        }
+
+        <h2 id="element"></h2>
+    4. universal selector (*)
+
+Using an external style sheet is known as separation of concerns.
