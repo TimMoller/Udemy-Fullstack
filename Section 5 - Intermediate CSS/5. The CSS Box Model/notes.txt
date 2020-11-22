@@ -1,0 +1,10 @@
+The Box Model:
+
+Content > Padding > Border > Margin
+
+Content - the text and images contained in the Box
+Padding - clears an area around the content, padding is transparent
+Border - a border that goes around the content and padding.
+Margin - Clears an area around the border, this area is also transparent.
+
+The box model is critical to positioning elements around pages

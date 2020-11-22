@@ -1,0 +1,20 @@
+.div-container {
+    width: fit-content;
+    border: 2px solid red;
+}
+.box-one {
+    border: 2px solid black;
+    background-color: aqua;
+    width: 120px;
+    padding: 50px;
+    display: inline-block; /*changed the element from a block level element to an in-line element*/
+    margin: 20px; /*Margin can be controlled the same as padding (2 or 4 qualifiers)*/
+}
+.box-two {
+    border: 2px solid grey;
+    background-color: cornflowerblue;
+    width: 120px;
+    padding: 50px;
+    display: inline-block; /*also need to be an in-line element for the two elements to appear side by side*/
+    margin: 20px;
+}

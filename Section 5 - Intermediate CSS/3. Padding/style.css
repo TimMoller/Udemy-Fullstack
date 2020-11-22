@@ -1,6 +1,5 @@
 div {
     border: 2px solid black;
     width: 300px;
-    padding: 15px;
-    margin-left: 50%;
+    padding: 25px 140px; /* 2 values = top&bottom, Left and right; 4 values = top, right, bottoom left (like a clock face)*/
 }
