@@ -1,0 +1,18 @@
+.container {
+    width: 600px;
+    border: 2px solid black;
+    margin: 40px auto;
+}
+
+#text-container {
+    height: 350px;
+}
+
+.text-content {
+    text-align: justify;
+    padding: 50px;
+}
+
+h1 {
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.paragraph-one {
+    font-weight: bold;
+}
+
+.paragraph-two {
+    font-style: italic;
+}
+
+.paragraph-three {
+    text-decoration: underline;
+}

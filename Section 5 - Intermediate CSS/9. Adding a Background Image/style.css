@@ -1,0 +1,15 @@
+
+/*universial selector applied to the whole page AND all of it's elements*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw; /*vw for Width*/
+    height: 100vh; /*vh for height*/
+    background-image: url(butterfly.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
