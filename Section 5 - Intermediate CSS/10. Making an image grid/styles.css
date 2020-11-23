@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(design.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 35%;
+    margin: 10px;
+    border: 1px solid blue;
+}
+
+.row-one, .row-two, .row-three {
+    width: 100%;
+}
+
+.box {
+    height: 170px;
+    width: 31%;
+    background-image: url(python.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    margin: 2px;
+    display: inline-block;
+}
+
+.box:hover {
+    opacity: 0.8;
+    zoom: 0.7;
+}
+
+img {
+    width: 95%;
+    align-items: center;
+}
+
+img:hover {
+    opacity: 0.8;
+    zoom: 1.4;
+}
