@@ -1,0 +1,14 @@
+
+header h2 {
+    align-content: center;
+}
+
+.main-container {
+    width: fit-content;
+}
+.box {
+    width: 140px;
+    height: 140px;
+    border: 1px solid black;
+    background-color: aquamarine;
+}
