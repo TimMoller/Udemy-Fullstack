@@ -1,0 +1,34 @@
+
+p {
+    color: blue;
+}
+
+div p {
+    color: green;
+}
+
+/*Links*/
+a {
+    font-size: larger;
+}
+
+/*a:link*/
+a:link {
+    text-decoration: none;
+}
+
+/*a:visited*/
+a:visited {
+    color: gold;
+}
+
+/*a:hover*/
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*a:active*/
+div a:active {
+    color: red;
+}
