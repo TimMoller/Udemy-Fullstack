@@ -1,0 +1,47 @@
+
+
+.circle-blue{
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: fixed;
+    top: 42%;
+    left: 43%;
+}
+.circle-black{
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: fixed;
+    top: 42%;
+    left: 50%;
+}
+.circle-red{
+    border: 2px solid red;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: fixed;
+    top: 42%;
+    left: 57%;
+}
+.circle-gold{
+    border: 2px solid gold;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 46%;
+}
+.circle-green{
+    border: 2px solid green;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: fixed;
+    top: 50%;
+    left: 54Brifclon003
+}
