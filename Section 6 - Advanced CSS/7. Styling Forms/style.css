@@ -1,0 +1,29 @@
+.form-div{
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 50vw;
+    height: 60vh;
+    padding: 30px;
+}
+.text-field, .text-content{
+    display: block;
+    margin: 18px auto;
+    width: 70%;
+    border-radius: 5.5px;
+    border: 1px solid lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text-field{
+    height: 35px;
+}
+.text-content{
+    height: 45%;
+}
+.button{
+    position: relative;
+    left: 400px;
+    width: 120px;
+    height: 45px;
+    border-radius: 5.5px;
+    border: 1px solid lightgrey
+}
