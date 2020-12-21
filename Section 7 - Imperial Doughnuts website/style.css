@@ -1,6 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
 }
 header{
     width: 100vw;
@@ -34,15 +40,150 @@ nav ul li a:hover{
     margin: auto auto;
     border: 2px solid rgb(207, 40, 180);
     text-align: center;
-    background-image: url(./images/doughnuts_1.jpeg);
+    background-image: url(./images/doughnuts_3.jpeg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 #strapline-title{
-    position: relative;
-    top: 250px;
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+    margin: 40px auto;
 }
 #strapline-slogan{
     position: relative;
-    top: 350px;
+    top: -15px;
+    margin: 0 auto;
+    font-size: 45px;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #ffffdd;
+}
+.section-title{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+/*Styling the About Section*/
+.about-section{
+    width: 100vw;
+    height: 70vh;
+}
+.about-container{
+    width: 90%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: row;
+}
+#about-left{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    letter-spacing: 0.8px;
+    font-weight: bold;
+    font-size: 105%;
+}
+#about-right{
+    width: 45%;
+    margin-left: 6%;
+}
+.grid-row-1{
+    display: flex;
+    flex-direction: row;
+}
+.grid-row-2{
+    display: flex;
+    flex-direction: row;
+}
+.grid-image-1{
+    background-image: url(./images/grid\ image\ 1.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px;
+}
+.grid-image-2{
+    background-image: url(./images/grid\ image\ 2.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px;
+}
+.grid-image-3{
+    background-image: url(./images/grid\ image\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px;
+}
+.grid-image-4{
+    background-image: url(./images/grid\ image\ 4.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 250px;
+}
+
+/*Stylig the Doghnuts display image section*/
+.doughnuts-section{
+    width: 100vw;
+}
+.image-container{
+    width: 100%;
+}
+.image-row-1, .image-row-2, .image-row-3{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.display-image{
+    width: 30%;
+    height: 310px;
+    margin: 15px;
+    background-size: cover;
+    background-position: center;
+}
+#display-image-1{
+    background-image: url(./images/Display/doughnut-1.jpg);
+}
+#display-image-2{
+    background-image: url(./images/Display/doughnut-2.jpg);
+}
+#display-image-3{
+    background-image: url(./images/Display/doughnut-3.jpeg);
+}
+#display-image-4{
+    background-image: url(./images/Display/doughnut-4.jpg);
+}
+#display-image-5{
+    background-image: url(./images/Display/doughnut-5.jpeg);
+}
+#display-image-6{
+    background-image: url(./images/Display/doughnut-6.jpeg);
+}
+#display-image-7{
+    background-image: url(./images/Display/doughnut-7.jpeg);
+}
+#display-image-8{
+    background-image: url(./images/Display/doughnut-8.jpg);
+}
+#display-image-9{
+    background-image: url(./images/Display/Doughnut-9.jpeg);
+}
+
+/*Styling the Stores Section*/
+.stores-section{
+    width: 100vw;
+    height: 70vh;
+}
+.store-container{
+    border: 1px solid blue;
+    width: 80%;
+    margin: 15px auto;
 }
