@@ -212,7 +212,7 @@ nav ul li a:hover{
 footer{
     color: #ffffdd;
     width: 100vw;
-    height: 60vh;
+    height: 40vh;
     background-color: rgb(207, 40, 180);
     text-align: center;
 }
@@ -230,6 +230,8 @@ footer{
     flex-direction: row;
 }
 .social-media-icon{
+    text-decoration: none;
+    color: #ffffdd;
     margin: 0 auto;
 }
 
