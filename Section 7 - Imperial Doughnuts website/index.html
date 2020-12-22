@@ -4,7 +4,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vesper+Libre&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/2932273dff.js" crossorigin="anonymous"></script>
     <title>Imperial Doughnuts</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -12,10 +12,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Doughnuts</a></li>
-                <li><a href="#">Stores</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#doughnuts">Doughnuts</a></li>
+                <li><a href="#stores">Stores</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="strapline-container">
@@ -24,6 +24,7 @@
         </div>
     </header>
     <main>
+        <a name="about"></a>
         <section class="about-section">
             <h3 class="section-title">About</h3>
             <div class="about-container">
@@ -50,6 +51,7 @@
                 </div>
             </div>
         </section>
+        <a name="doughuts"></a>
         <section class="doughnuts-section">
             <h3 class="section-title">Doughnuts</h3>
             <div class="image-container">
@@ -70,26 +72,41 @@
                 </div>
             </div>
         </section>
+        <a name="stores"></a>
         <section class="stores-section">
             <h3 class="section-title">Stores</h3>
+            <div class="stores-container">
+                <div class="store-col-1">
+                    <h4 class="store-front">Parkdale, Toronto</h4>
+                    <p class="store-address">1650 Queen street West<br>Parkdale<br>Toronta, Ontario</p>
+                </div>
+                <div class="store-col-2">
+                    <h4 class="store-front">Spadina Ave, Toronto</h4>
+                    <p class="store-address">400 Richmond strret West<br>Toronto Ontrio</p>
+                </div>
+                <div class="store-col-3">
+                    <h4 class="store-front">Old Town, Chicago</h4>
+                    <p class="store-address">351 Wets Evergreen Ave<br>Old Town, Chicago</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <h3 class="section-title">Contact</h3>
-        <div class="stores-container">
-            <div class="store-col">
-                <h4 class="store-front"></h4>
-                <p class="store-address">address</p>
+        <a name="contact"></a>
+        <h3 class="section-title" id="contact-section-title">Contact</h3>
+        <h4 class="email">orders@imperialdoughnuts.com</h4>
+        <div class="social-media-icon-grid">
+            <div class="social-media-icon">
+                <i class="fab fa-instagram fa-3x"></i>
             </div>
-            <div class="store-col">
-                <h4 class="store-front"></h4>
-                <p class="store-address">address</p>
+            <div class="social-media-icon">
+                <i class="fab fa-facebook-square fa-3x"></i>
             </div>
-            <div class="store-col">
-                <h4 class="store-front"></h4>
-                <p class="store-address">address</p>
+            <div class="social-media-icon">
+                <i class="fab fa-twitter-square fa-3x"></i>
             </div>
         </div>
+        <h5>&copy;Imperial Doughnuts</h5>
     </footer>
 </body>
 </html>
