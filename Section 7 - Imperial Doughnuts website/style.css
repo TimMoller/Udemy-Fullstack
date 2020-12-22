@@ -3,6 +3,7 @@
     padding: 0;
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Vesper Libre', serif;
@@ -127,6 +128,10 @@ nav ul li a:hover{
     width: 50%;
     height: 250px;
 }
+.grid-image-1:hover, .grid-image-2:hover, .grid-image-3:hover, .grid-image-4:hover{
+    opacity: 0.8;
+}
+
 
 /*Stylig the Doghnuts display image section*/
 .doughnuts-section{
@@ -148,6 +153,9 @@ nav ul li a:hover{
     margin: 15px;
     background-size: cover;
     background-position: center;
+}
+.display-image:hover{
+    zoom: 1.2;
 }
 #display-image-1{
     background-image: url(./images/Display/doughnut-1.jpg);
