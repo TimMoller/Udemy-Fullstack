@@ -1,0 +1,17 @@
+
+Rosponsive design is the idea that the content of your website/app will work
+and look goo on multiple devices.
+
+What is a media query?
+    It sets conditions to be met for css to apply a particular style.
+    If the condition in met, the style is applied.
+    If not then not.
+
+You can set multiple conditions in the media query.
+it works the same as with normal css
+    you can set styles for all content
+        > elements
+        > classes
+        > ID's
+        > universal (*)
+

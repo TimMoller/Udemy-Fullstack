@@ -1,0 +1,9 @@
+
+@media only screen and (max-width: 800px){
+    h2{
+        color: blue;
+    }
+    p{
+        color: purple;
+    }
+}
