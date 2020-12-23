@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid blue;
+    width: 70vw;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 3%
+}
+#box-1{
+    background-color: red;
+}
+#box-2{
+    background-color: orange;
+}
+#box-3{
+    background-color: green;
+}
+
+@media only screen and (min-width: 1024px){
+    .container{
+    border: 2px solid red;
+    flex-direction: row;
+    justify-content: spa;
+    }
+}

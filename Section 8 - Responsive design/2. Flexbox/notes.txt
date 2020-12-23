@@ -1,0 +1,25 @@
+What is Flexbox?
+
+Flexbox is a method in css that can reposition element set as boxes.
+
+When designing a website, it is best practice to approach it from a mobile first perspective. Build the pages for mobile firs and then go bigger for desktop devices.
+
+Open the flex:
+
+Element{
+    Display: flex;
+}
+
+You can then use various other flex transformations:
+
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
+Justify-content: centre;
+Justify-content: space-around;
+Justify-content: space-between;
+Justify-content: space-evenly;
+
+When using Flexbox, you are working again with parent elements to effect the positioning of the elements within.
