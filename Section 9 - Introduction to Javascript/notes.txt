@@ -1,0 +1,22 @@
+Notes for Javascript in web development:
+
+Javascript is growing in popularity in both front-end and back-end development:
+    > React.js (front end)
+    > Node.js (back end)
+
+What will we cover in this chapter
+1. Javascript fundamentals
+    Primative data types:
+        > Numbers
+        > Strings
+        > Booleans
+        > Null
+        > Undefined
+2. All data types
+3. conditional logic
+4. control flow and looping
+5. Functions
+6. Object oriented Javascript
+7. Dom manipulation & More!
+
+It is best practice to link to an external script to better manage the functions without impacting he content of your pages
