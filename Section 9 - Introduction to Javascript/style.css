@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 header{
     width: 100vw;
     height: 25vh;
@@ -25,3 +26,9 @@ footer{
     height: 15vh;
     background-color: burlywood;
 }
+=======
+
+header{}
+main{}
+footer{}
+>>>>>>> eb4c2a59ed21fae9e909bea81120d79e2a0bd2e7
