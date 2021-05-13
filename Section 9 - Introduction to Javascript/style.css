@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+main{
+    width: 80vw;
+    margin: auto;
+    padding: 10 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: cadetblue;
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: burlywood;
+}
